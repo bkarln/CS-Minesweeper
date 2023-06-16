@@ -15,11 +15,7 @@ namespace Minesweeper_2
             this.form = form;
             mine_buttons = new Button[81];
             mines = MineGenerator.GenerateMines();
-
             AddButtonsToForm();
-
-            // Restante do código de inicialização do jogo
-            // ...
         }
 
         private void AddButtonsToForm()
@@ -60,7 +56,6 @@ namespace Minesweeper_2
             int buttonIndex = int.Parse(clickedButton.Name) - 1;
 
             // Lógica para tratar o clique em um botão
-            // Use o buttonIndex para acessar a matriz de botões e a matriz de minas
 
             // Exemplo: exibindo a posição do botão clicado
             int row = buttonIndex / 9;
