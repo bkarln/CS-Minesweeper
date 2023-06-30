@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Minesweeper_2.Properties {
+namespace Minesweeper2020.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

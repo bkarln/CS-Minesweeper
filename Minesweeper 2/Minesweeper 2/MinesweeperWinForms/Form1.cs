@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Xml;
 
 namespace Minesweeper
 {
@@ -75,7 +74,7 @@ namespace Minesweeper
             }
 
             tableLayout.Size = new Size(10, 10);
-            tableLayout.BorderStyle = BorderStyle.None;
+            tableLayout.BorderStyle = BorderStyle.None; 
             tableLayout.CellBorderStyle = TableLayoutPanelCellBorderStyle.None;
 
             foreach (ColumnStyle style in tableLayout.ColumnStyles)
@@ -116,7 +115,7 @@ namespace Minesweeper
             textBoxHelper.AppendText($" location = {tableLayout.Location.X}:{tableLayout.Location.Y}");
 
             this.Controls.Add(tableLayout);
-
+      
             textBoxHelper.AppendText($"{tableLayout.Size.Width}" + "\n");
             textBoxHelper.AppendText($"{tableLayout.Size.Height}" + "\n");
 

@@ -140,3 +140,4 @@ namespace Minesweeper
         private System.Windows.Forms.TextBox textBoxHelper;
     }
 }
+

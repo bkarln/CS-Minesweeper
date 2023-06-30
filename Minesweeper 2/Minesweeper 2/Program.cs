@@ -1,14 +1,23 @@
-﻿using System;
-using System.Windows.Forms;
+﻿using Minesweeper_2;
+using System;
 
-namespace Minesweeper_2
+namespace CampoMinado
 {
-    static class Program
+    class Program
     {
-        [STAThread]
         static void Main()
         {
-            Application.Run(new Form1());
+            Console.WriteLine("Bem-vindo ao Campo Minado!");
+            Console.WriteLine();
+
+            int tamanho = 10; // Tamanho do campo minado (10x10)
+            int numeroMinas = 10; // Número de minas no campo minado
+
+            Gamelogic game = new Gamelogic(tamanho, numeroMinas);
+            game.IniciarJogo();
+
+            Console.WriteLine("Pressione qualquer tecla para sair...");
+            Console.ReadKey();
         }
     }
 }

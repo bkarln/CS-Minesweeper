@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Minesweeper2020")]
+[assembly: AssemblyTitle("Minesweeper")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Minesweeper2020")]
+[assembly: AssemblyProduct("Minesweeper")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("901ea0e5-af63-4f6d-95b0-1fc60c519c37")]
+[assembly: Guid("531a0c33-27de-46f9-ba23-7d869d870961")]
 
 // Version information for an assembly consists of the following four values:
 //
